@@ -15,5 +15,3 @@ app.get('/',(req, res)=> {
 })
 
 app.listen(8080,()=>console.log('server has started on port 8080'))
-
-
