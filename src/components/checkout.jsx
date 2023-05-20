@@ -155,7 +155,14 @@ const Checkout = ({ setOpenModal }) => {
           />
         </label>
         <div className="flex gap-[30px]">
-          <button className="py-2 px-[50px] bg-[#f5f5f5] rounded">Назад</button>
+          <button
+            onClick={() => {
+              setOpenModal(false);
+            }}
+            className="py-2 px-[50px] bg-[#f5f5f5] rounded"
+          >
+            Назад
+          </button>
           <button className="py-2 px-[50px] bg-[#1fc142] text-white  rounded">
             Заказать
           </button>
